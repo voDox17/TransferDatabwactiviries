@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wephyre.transferdatabwactiviries.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/gobutton"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="73dp"
+        android:layout_toEndOf="@+id/gobutton"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="enter text"
+        android:inputType="textPersonName"
+        android:text="@string/text" />
+
+    <Button
+        android:id="@+id/loadbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/load" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="103dp"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/gobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/loadbutton"
+        android:layout_marginTop="24dp"
+        android:layout_toStartOf="@+id/editText"
+        android:text="@string/go" />
+
+</RelativeLayout>

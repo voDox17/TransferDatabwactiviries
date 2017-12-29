@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Transfer Data b/w activiries</string>
+    <string name="load">LOAD</string>
+    <string name="save">Save</string>
+    <string name="text" />
+    <string name="go">Go</string>
+</resources>
